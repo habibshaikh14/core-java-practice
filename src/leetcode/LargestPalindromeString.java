@@ -41,6 +41,10 @@ public class LargestPalindromeString {
 
 class OptimalSolution {
 
+    private OptimalSolution() {
+        // shouldn't be instantiated.
+    }
+
     private static int maxLen = 0, start = 0;
 
     public static String longestPalindrome(String s) {
