@@ -1,16 +1,19 @@
 package leetcode;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import leetcode.helper.classes.ListNode;
 
 public class AddTwoNumbers {
+    private static final Logger LOGGER = LogManager.getLogger(AddTwoNumbers.class);
+
     public static void main(String[] args) {
-        ListNode l1 = new ListNode();
-        ListNode l2 = new ListNode(9, null);
+        ListNode l1 = new ListNode("0 0 1");
+        ListNode l2 = new ListNode("9 1");
         ListNode sum = addTwoNumbers(l1, l2);
-        while (sum != null) {
-            System.out.print(sum.getVal() + "-");
-            sum = sum.getNext();
-        }
+        String sumString = new StringBuilder(sum.getString()).reverse().toString();
+        LOGGER.info(sumString);
     }
 
     private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
