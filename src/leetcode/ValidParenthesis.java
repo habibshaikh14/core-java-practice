@@ -27,9 +27,7 @@ public class ValidParenthesis {
                 case '(':
                     stack.push(')');
                     break;
-                case '}':
-                case ']':
-                case ')':
+                case '}', ']', ')':
                     if (stack.isEmpty() || stack.pop() != s.charAt(i)) {
                         return false;
                     }
