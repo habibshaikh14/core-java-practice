@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.14.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.14.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.14.1-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.14.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.14.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.14.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.14.1-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
