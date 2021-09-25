@@ -1,14 +1,9 @@
 package leetcode;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 public class MajorityNumber {
 
-  private static final Logger LOGGER = LogManager.getLogger(MajorityNumber.class);
-
   public static void main(String[] args) {
-    LOGGER.info(majorityElement(new int[] { 1, 2, 3, 1, 1, 1 }));
+    System.out.println(majorityElement(new int[] { 1, 2, 3, 1, 1, 1 }));
   }
 
   public static int majorityElement(int[] nums) {
