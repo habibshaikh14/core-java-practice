@@ -45,6 +45,11 @@ public class AddTwoNumbers {
             result.setNext(l1.getNext());
         }
 
+        handleCarry(hasCarry, result, last);
+        return head;
+    }
+
+    private static void handleCarry(boolean hasCarry, ListNode result, ListNode last) {
         if (hasCarry) {
             while (result != null && result.getVal() == 9) {
                 result.setVal(0);
@@ -57,6 +62,5 @@ public class AddTwoNumbers {
                 result.setVal(result.getVal() + 1);
             }
         }
-        return head;
     }
 }

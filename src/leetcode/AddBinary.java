@@ -8,6 +8,7 @@ public class AddBinary {
     public static void main(String[] args) {
         for (String s : Arrays.asList(addBinary("110011", "1011"), addBinary("1111", "1"), addBinary("", "101"))) {
             out.println(s);
+            out.println(Integer.parseInt(String.valueOf(" 100")));
         }
     }
 
